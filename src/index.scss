@@ -1,18 +1,15 @@
-@use 'global';
+@use "global";
 
 * {
   margin: 0;
   -webkit-tap-highlight-color: transparent;
 }
 
-
 html::-webkit-scrollbar {
   display: none;
 }
 
 body {
-  background-color: global.$bg-dark;
-  color: global.$col-dark;
+  background-color: global.$bg;
   font-family: global.$font;
 }
-

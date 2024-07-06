@@ -1,22 +1,25 @@
 @font-face {
-    font-family: "poppins";
-    src: url('./assets/fonts/Poppins-Regular.ttf');
+  font-family: "poppins";
+  src: url("./assets/fonts/Poppins-Regular.ttf");
 }
 
 @font-face {
-    font-family: "poppins-bold";
-    src: url('./assets/fonts/Poppins-ExtraBold.ttf');
+  font-family: "poppins-bold";
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf");
 }
 
-$bg-dark: #1f001a;
-$col-dark: white;
-$font: 'Poppins';
-$font-bold: 'Poppins-bold';
-
-@mixin flexCenter($direction) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: $direction;
+@font-face {
+  font-family: "rochester";
+  src: url("./assets/fonts/Rochester-Regular.ttf");
 }
 
+@font-face {
+  font-family: "qwigley";
+  src: url("./assets/fonts/Qwigley-Regular.ttf");
+}
+
+$bg: #f1f9ff;
+$bg-banner: #00223b;
+
+$font: "Poppins";
+$font-bold: "Poppins-bold";

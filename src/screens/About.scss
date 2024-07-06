@@ -1,0 +1,211 @@
+.About {
+  width: 100vw;
+  min-height: 100vh;
+  .banner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/images/BgAbout.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-content: center;
+    font-family: "Poppins-bold";
+    font-size: xx-large;
+    h1 {
+      color: rgba(235, 247, 255, 0.142);
+      margin-bottom: 100px;
+    }
+  }
+  .biography {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 150px;
+    section {
+      background: linear-gradient(90deg, #34b6ff, #003e6c);
+      background-clip: text;
+      width: max-content;
+      p {
+        font-family: "qwigley";
+        color: transparent;
+        font-size: 128px;
+      }
+    }
+    div {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      p {
+        width: 2px;
+        min-height: 100px;
+        height: 100%;
+      }
+      span {
+        font-size: small;
+      }
+    }
+  }
+  .mission {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+    gap: 50px;
+    section {
+      background: linear-gradient(90deg, #34b6ff, #003e6c);
+      background-clip: text;
+      display: flex;
+      h1 {
+        font-family: "Poppins-bold";
+        color: transparent;
+        font-size: 64px;
+      }
+      span {
+        word-break: keep-all;
+        font-family: "Rochester";
+        font-size: 22px;
+        &:first-of-type {
+          margin-top: 20px;
+          align-self: flex-start;
+        }
+        &:last-of-type {
+          align-self: flex-end;
+          white-space: nowrap;
+          margin-bottom: 20px;
+        }
+      }
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      p {
+        font-size: large;
+        span {
+          font-size: 27px;
+          font-family: "poppins-bold";
+        }
+      }
+    }
+  }
+  .mission2 {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    margin-bottom: 300px;
+    div {
+      flex: 0.5;
+      position: relative;
+      p {
+        backdrop-filter: blur(20px);
+        padding: 40px;
+        background-color: #dff2ff43;
+        border: 1px solid #bae6ff;
+        border-radius: 40px;
+        font-size: small;
+        max-width: 400px;
+      }
+      .bg1 {
+        width: 150px;
+        height: 150px;
+        background-color: #00a2ff;
+        display: block;
+        position: absolute;
+        top: -50px;
+        left: -50px;
+        z-index: -1;
+        border-radius: 50%;
+      }
+      .bg2 {
+        width: 100px;
+        height: 100px;
+        background-color: #024064;
+        display: block;
+        position: absolute;
+        bottom: -40px;
+        right: 30px;
+        z-index: -1;
+        border-radius: 50%;
+      }
+      .bg3 {
+        width: 50px;
+        height: 50px;
+        background-color: #a2dfff;
+        display: block;
+        position: absolute;
+        top: -20px;
+        right: 40px;
+        z-index: -1;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .About {
+    .banner {
+      font-size: x-large;
+    }
+    .biography {
+      section {
+        p {
+          font-size: 78px;
+        }
+      }
+      div {
+        gap: 20px;
+        p {
+          min-height: 200px;
+        }
+      }
+    }
+    .mission {
+      align-items: center;
+      justify-content: center;
+      section {
+        h1 {
+          font-size: 48px;
+        }
+        span {
+          font-size: 16px;
+          &:first-of-type {
+            margin-top: 15px;
+          }
+          &:last-of-type {
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .About {
+    .biography {
+      width: 90vw;
+    }
+    .mission {
+      width: 90vw;
+      flex-wrap: wrap;
+    }
+    .mission2 {
+      width: 90vw;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      div {
+        max-width: 70vw;
+        margin-left: 20px;
+      }
+    }
+  }
+}
