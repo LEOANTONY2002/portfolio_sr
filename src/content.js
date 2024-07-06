@@ -8,6 +8,14 @@ import LinkedIn from "./assets/images/LinkedIn.png";
 
 import Ach1 from "./assets/images/Ach1.png";
 import Ach2 from "./assets/images/Ach2.png";
+import Ach3 from "./assets/images/Ach3.jpg";
+import Ach4 from "./assets/images/Ach4.jpg";
+import Ach5 from "./assets/images/Ach5.png";
+import Ach6 from "./assets/images/Ach6.png";
+import Ach7 from "./assets/images/Ach7.png";
+import Ach9 from "./assets/images/Ach9.jpg";
+import Ach10 from "./assets/images/Ach10.png";
+import Ach11 from "./assets/images/Ach11.png";
 
 export const links = [
   {
@@ -51,10 +59,6 @@ export const achievements = [
   [
     {
       img: Ach1,
-      txt: "Post Graduate Diploma in Leadership Masters in Science",
-    },
-    {
-      img: Ach1,
       txt: "Global, WorldWide & International Sports (Cricket) Executive Leader, Director, Brand Ambassador, Patron, Advisor",
     },
     {
@@ -62,39 +66,43 @@ export const achievements = [
       txt: "2022 Representative, Brand Ambassador, Patron, Advisor To Board of Directors, Cricket Sierra Leone (founded 1942 ; affiliated 2001 )",
     },
     {
-      img: Ach1,
+      img: Ach3,
       txt: "2022 USA Inductee The World’s First Cricket Hall of Fame (Estd 1980)",
+    },
+    {
+      img: Ach5,
+      txt: "2023 Outstanding-Illustrious Alumni Inductee National College, Trichy, Tamil Nadu, India (Estb 1919)",
     },
   ],
   [
     {
-      img: Ach1,
+      img: Ach6,
       txt: "Alumni MIT / Tuck / Columbia Executive Business Schools / Emeritus / Bharathidasan University",
     },
     {
-      img: Ach2,
+      img: Ach7,
       txt: "Work on Cricket Projects across five continents with Africa Focus and chose West Africa, Sierra Leone as Home to represent",
     },
     {
-      img: Ach1,
+      img: Ach7,
       txt: "Advised Cricket Sierra Leone To multiple awards and improvised global rankings",
     },
     {
-      img: Ach2,
+      img: Ach9,
       txt: "2021 Registered yoga trainer/teacher [RYT® 200] International Yoga Alliance",
     },
   ],
   [
     {
-      img: Ach2,
+      img: Ach4,
       txt: "2015 Nationally Elected Executive Director The Public Charity 501(c)(3) National Governing Body for the Game of Cricket, USA (Estd 1961)",
     },
     {
-      img: Ach1,
+      img: Ach10,
       txt: "Technology Services Management Specialist - Database Strategist Automotive-Transportation-Mobility OEM FORD Motor Company, USA (Estd 1903)",
     },
     {
-      img: Ach2,
+      img: Ach11,
       txt: "2023 Appointed Executive Education Advisory Board the Customer Experience Certificate Program Andrews University, Michigan, USA (Estb 1874)",
     },
   ],
